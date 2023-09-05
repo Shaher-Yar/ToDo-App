@@ -7,18 +7,25 @@ body {
   
   #app {
     max-width: 400px;
-    margin:60px;
-    padding: 20px;
-    background-color: #54bada;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 40px;
+  background-color: #54bada;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   }
   
   h1 {
     text-align: center;
-    color:black;
+    color:rgb(253, 251, 251);
     margin-bottom: 20px;
     font-style: italic;
+  }
+
+  h3{
+    text-align: left;
+    color: #ccc;
+    font-style: italic;
+    margin-bottom: 20px;
   }
   
   .add-task {
@@ -43,12 +50,13 @@ body {
   
   .add-button {
     background-color: #2ecc71;
-    border: none;
+    border: peru;
     color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
+    padding: 16px 22px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 5px;
   }
   
   .add-button:hover {
@@ -99,4 +107,24 @@ body {
     text-decoration: line-through;
     color: #888;
   }
+
+  #app {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 40px;
+    background-image: url(milkyimg.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
   
+  body {
+    background-image: url(treeimg.jpg.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0;
+  }
